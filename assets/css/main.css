@@ -3548,7 +3548,7 @@ input, select, textarea {
 
 		#banner:after {
 			/*the a value in the rgba changes the opacity and the real time should change only that*/
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, .15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
