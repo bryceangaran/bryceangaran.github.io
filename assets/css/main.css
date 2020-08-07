@@ -106,12 +106,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color:  #ffffff;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color:   #ffffff   !important;
 			border-bottom-color: transparent;
 		}
 
@@ -3183,9 +3183,23 @@ input, select, textarea {
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 2em 0 11em 0;
 			width: 100%;
+			text-align: center;
 		}
+
+		/*Education List Items*/
+		#EducationList{
+			position: absolute;
+			font-size: 2em;
+			font-weight: 300;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+  			white-space: nowrap;
+  			text-shadow: 0 2px 2px rgba(#000, 0.9);
+		}
+
 
 		.spotlight.top .content {
 			border-bottom-width: 0.35em;
@@ -3548,7 +3562,7 @@ input, select, textarea {
 
 		#banner:after {
 			/*the a value in the rgba changes the opacity and the real time should change only that*/
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32,0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.15), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
@@ -3722,11 +3736,11 @@ input, select, textarea {
 		/* Spotlight */
 
 			.spotlight.top .content {
-				padding: 3.825em 0 1.825em 0;
+				padding: 2em 0 11em 0;
 			}
 
 			.spotlight.bottom .content {
-				padding: 3.825em 0 2.95em 0;
+				padding: 2em 0 11em 0;
 			}
 
 			.spotlight.left .content, .spotlight.right .content {
@@ -3790,12 +3804,16 @@ input, select, textarea {
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
 					left: auto !important;
-					padding: 4.5em 2.5em 2.5em 2.5em !important;
+					padding: 4.5em 2.5em 2.5em 2.5em ;
 					position: relative;
 					right: auto !important;
 					text-align: center;
 					top: auto !important;
 					width: 100% !important;
+				}
+
+				.spotlight.bottom .content {
+					padding: 2em 0 7em 0;
 				}
 
 					.spotlight .content ul.actions {
@@ -3937,8 +3955,16 @@ input, select, textarea {
 
 				.spotlight .content {
 					border-top-width: 0.2em !important;
-					padding: 3.25em 1.5em 1.25em 1.5em !important;
+					padding: 3.25em 1.5em 1.25em 1.5em;
 				}
+
+				.spotlight.bottom .content {
+					padding: 1em .5em 4em .5em;
+				}
+
+		#EducationList{
+			font-size: 1.5em;
+		}
 
 		/* Wrapper */
 
@@ -4197,7 +4223,15 @@ input, select, textarea {
 			}
 
 			.spotlight .content {
-				padding: 3em 1.25em 1em 1.25em !important;
+				padding: 3em 1.25em 1em 1.25em;
+			}
+
+			.spotlight.bottom .content {
+				padding: 1em .5em 4em .5em;
+			}
+
+			#EducationList{
+				font-size: 1.5em;
 			}
 
 		/* Wrapper */
