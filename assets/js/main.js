@@ -213,8 +213,8 @@
     	m.fadeBuffer = false;
     	m.messages = [
       	'Bachlor of Science Degree', 
-      	'In Computer Science', 'With a Minor',
-    	'In Mathematics'
+      	'in Computer Science', 'With Minors in',
+    	'Mathematics and Statistics'
     	];
     
     	setTimeout(m.animateIn, 300);
