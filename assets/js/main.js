@@ -213,7 +213,7 @@
     	m.fadeBuffer = false;
     	m.messages = [
       	'Bachlor of Science Degree', 
-      	'in Computer Science', 'With Minors in',
+      	'in Computer Science', 'with Minors in',
     	'Mathematics and Statistics'
     	];
     
